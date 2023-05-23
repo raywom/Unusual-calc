@@ -1,0 +1,52 @@
+body {
+    font-family: "Comic Sans MS", Courier, monospace;
+    font-size: 25px;
+    background: linear-gradient(to right, #e54d4d, #000000);
+    color: #3b1d3a;
+}
+
+.text-field {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.upside-down-image {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transform: rotate(180deg);
+}
+
+.horizontal-line {
+    border-top: 1px solid #333333;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.color-input-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.color-input {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.color-input label {
+    margin-right: 5px;
+}
+.header {
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.result-container {
+    margin-top: 20px;
+}

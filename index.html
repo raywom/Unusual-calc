@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Unusual Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/png" href="icon.png">
+    <script src="script.js"></script>
+</head>
+<body>
+<h1 class="header">Unusual Calculator</h1>
+
+<div class="input-container">
+    <label for="arguments">Arguments:</label>
+    <input type="text" id="arguments" class="text-field">
+</div>
+
+<div class="input-container">
+    <label for="operation">Operation:</label>
+    <select id="operation">
+        <option value="sum">∑</option>
+        <option value="product">∏</option>
+        <option value="maximum">></option>
+        <option value="minimum"><</option>
+    </select>
+</div>
+
+<button onclick="calculate()">Launch</button>
+<button onclick="fillWithRandomIntegers()">Fill with Random Integers</button>
+<button onclick="saveData()">Save</button>
+
+<div class="result-container">
+    <label for="result">Result:</label>
+    <input type="text" id="result" readonly class="text-field">
+</div>
+
+<div class="horizontal-line"></div>
+
+<div class="color-input-row">
+    <div class="color-input">
+        <input type="color" id="foreground-color" onchange="changeTextColor()">
+    </div>
+
+    <div class="color-input">
+        <input type="color" id="background-color" onchange="changeBackgroundColor()">
+    </div>
+</div>
+
+<img src="upside-down-image.png" alt="Upside Down" class="upside-down-image">
+
+<script src="script.js"></script>
+</body>
+</html>
